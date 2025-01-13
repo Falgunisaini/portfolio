@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #F8F5F2;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#FFC5D9, #565555);
+  border-radius: 10px;
+}
