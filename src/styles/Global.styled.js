@@ -7,7 +7,7 @@ export const MainBody = styled.div`
 export const Container = styled.div`
     width: 90%;
     max-width: 1280px;
-    margin: auto;
+    margin: auto; 
 `
 
 export const PaddingContainer = styled.div`

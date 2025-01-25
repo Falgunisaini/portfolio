@@ -9,6 +9,7 @@ import MySkills from './components/MySkills';
 import MyProjects from './components/MyProjects';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Navbar />
           <Showcase />
           <MySkills />
+          <Education />
           <MyProjects />
           <Footer />
         </Container>

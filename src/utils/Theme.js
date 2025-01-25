@@ -1,12 +1,5 @@
 export const theme = {
     colors: {
-        // primary: '#0f172a',
-        // primary_light: '#131c31',
-        // secondary: '#7eadfc',
-        // white: '#fff',
-        // black: '#000',
-        // para_text_color: '#dcdcdc'
-
         primary: '#1C1C1C', 
         primary_light: '#F8F5F2', 
         secondary: '#FFC5D9', 
@@ -24,6 +17,7 @@ export const theme = {
         }
     },
     breakpoints: {
+        large: '1000px',
         mobile: '900px',
         small: '500px'
     }
