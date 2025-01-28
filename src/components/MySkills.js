@@ -38,7 +38,7 @@ const MySkills = () => {
                 whileInView="visible"
             >
                 {Skills.map((skill) => (
-                    <SkillsCard marginTop="3rem" boxWidth=""> 
+                    <SkillsCard marginTop="3rem"> 
                         <IconContainer size="4rem" color="highlight-color">
                             {skill.icon}
                         </IconContainer>

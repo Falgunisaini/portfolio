@@ -38,7 +38,7 @@ export const NavMenuContainer = styled.div`
 
 export const MenuItem = styled.a`
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 3rem;
     cursor: pointer;
     text-decoration: none;

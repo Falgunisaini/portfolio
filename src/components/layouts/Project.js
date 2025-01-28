@@ -19,7 +19,7 @@ import {
 
 import { fadeInLeftVariant, fadeInRightVariant } from '../../utils/Variants';
 
-export const Project = ({ data}) => {
+export const Project = ({ data }) => {
     return (
         <FlexContainer 
             direction={data.reverse? 'row-reverse' : false}

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SkillsCardContainer= styled.div`
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-gap: 2rem;
     padding: 0 5%;
 
@@ -17,9 +17,10 @@ export const SkillsCardContainer= styled.div`
 `
 
 export const SkillsCard = styled.div`
-    width: 230px;
+    width: 150px;
+    height: 170px;
     border: 1px solid #fff;
-    padding: 3rem 0;
+    padding: 1rem 0;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
