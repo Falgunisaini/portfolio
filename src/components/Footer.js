@@ -57,7 +57,6 @@ const Footer = () => {
       })
       .catch((error) => {
         console.error("EmailJS error:", error);
-        setStatus("Failed to send message. Please try again.");
       });
   };
 
