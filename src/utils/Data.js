@@ -107,11 +107,16 @@ export const navLinks = [
     },
     {
         id: 3,
+        name: 'Work Experience',
+        href: 'WorkExperience'
+    },
+    {
+        id: 4,
         name: 'My Education',
         href: 'Education'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Contact Me',
         href: 'Contact'
     }
@@ -136,5 +141,22 @@ export const educationData = [
         degree: 'Bachelors of Computer Applications',
         institution: 'Jagan Institute of Management Studies, Delhi, India',
         duration: 'August 2018 - June 2021'
+    }
+];
+
+export const workExperienceData = [
+    {
+        id: 0,
+        position: 'Freelance AI Tutor (CLI, Docker & Code Migration)',
+        company: 'Mindrift',
+        location: 'Remote',
+        duration: 'May 2024 – Present',
+        description: [
+            'Contributed as an AI Tutor, specializing in CLI problem-solving, test framework improvements, and automation in Docker-isolated environments.',
+            'Designed and tested Docker images to enable reproducible builds, streamline development, and support deployment workflows.',
+            'Supported migration bench projects (e.g., JS → TS), ensuring smooth transitions with functional parity and consistent test coverage.',
+            'Collaborated with global teams on task-based deliverables, focusing on accuracy, scalability, and documentation quality.',
+            'Skills: CLI, Docker, AI testing, code migration, reproducible builds'
+        ]
     }
 ];
